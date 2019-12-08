@@ -30,6 +30,7 @@ const Cornbread = () => (
 			<p>Set up lamda edge function to route /testing/ to the index.html</p>
 			<p>Set up lamda edge function to add security headers</p>
 			<p>This page is now a React/Next app</p>
+			<p>This page is hooked up to Travis CI so it deploys when I push to master</p>
 		</div>
 
 		<style jsx>{`
