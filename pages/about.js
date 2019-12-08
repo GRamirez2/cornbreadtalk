@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Nav from '../components/nav';
 
-const Cornbread = () => (
+const About = () => (
 	<div>
 		<Head>
 			<title>Cornbread</title>
@@ -12,29 +12,12 @@ const Cornbread = () => (
 		<Nav />
 
 		<div className="hero">
-			<h1>Cornbreadtalk.com coming soon 🌽🍞</h1>
-			<p>Hello from s3.</p>
-			<p>pushing new code from aws2 cli</p>
-			<p>
-				set up https with added headers for an A+<a
-					href="https://observatory.mozilla.org/analyze/cornbreadtalk.com"
-					target="_blank"
-				>
-					{' '}
-					rating
-				</a>
-			</p>
-
-			<p>set up cornbreadtalk.com and www.cornbreadtalk.com</p>
-			<p>set up cloudfront world wide distibution</p>
-			<p>Set up lamda edge function to route /testing/ to the index.html</p>
-			<p>Set up lamda edge function to add security headers</p>
-			<p>This page is now a React/Next app</p>
+			<h1>About 🌽🍞</h1>
 		</div>
 
 		<style jsx>{`
 			.hero {
-				width: 100%;
+				width: 90%;
 				color: #333;
 			}
 			.title {
@@ -81,4 +64,4 @@ const Cornbread = () => (
 	</div>
 );
 
-export default Cornbread;
+export default About;
