@@ -31,7 +31,7 @@ const Cornbread = () => (
       <p>Set up lamda edge function to add security headers</p>
       <p>This page is now a React/Next app</p>
       <p>This page is hooked up to Travis CI so it deploys when I push to master</p>
-      <img src="/empanadas.svg" alt="empanads in hand written text" />
+      <img src="/empanadas_text.svg" alt="empanads in hand written text" />
     </div>
 
     <style jsx>{`
