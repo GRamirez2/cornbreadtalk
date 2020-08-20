@@ -3,37 +3,38 @@ import Head from 'next/head';
 import Nav from '../components/nav';
 
 const Cornbread = () => (
-	<div>
-		<Head>
-			<title>Cornbread</title>
-			<link rel="icon" href="/favicon.ico" />
-		</Head>
+  <div>
+    <Head>
+      <title>Cornbread</title>
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
 
-		<Nav />
+    <Nav />
 
-		<div className="hero">
-			<h1>Cornbreadtalk.com coming soon 🌽🍞</h1>
-			<p>Hello from s3.</p>
-			<p>pushing new code from aws2 cli</p>
-			<p>
-				set up https with added headers for an A+<a
-					href="https://observatory.mozilla.org/analyze/cornbreadtalk.com"
-					target="_blank"
-				>
-					{' '}
+    <div className="hero">
+      <h1>Cornbreadtalk.com coming soon 🌽🍞</h1>
+      <p>Hello from s3.</p>
+      <p>pushing new code from aws2 cli</p>
+      <p>
+        set up https with added headers for an A+<a
+          href="https://observatory.mozilla.org/analyze/cornbreadtalk.com"
+          target="_blank"
+        >
+          {' '}
 					rating
 				</a>
-			</p>
+      </p>
 
-			<p>set up cornbreadtalk.com and www.cornbreadtalk.com</p>
-			<p>set up cloudfront world wide distibution</p>
-			<p>Set up lamda edge function to route /testing/ to the index.html</p>
-			<p>Set up lamda edge function to add security headers</p>
-			<p>This page is now a React/Next app</p>
-			<p>This page is hooked up to Travis CI so it deploys when I push to master</p>
-		</div>
+      <p>set up cornbreadtalk.com and www.cornbreadtalk.com</p>
+      <p>set up cloudfront world wide distibution</p>
+      <p>Set up lamda edge function to route /testing/ to the index.html</p>
+      <p>Set up lamda edge function to add security headers</p>
+      <p>This page is now a React/Next app</p>
+      <p>This page is hooked up to Travis CI so it deploys when I push to master</p>
+      <img src="/empanadas.svg" alt="empanads in hand written text" />
+    </div>
 
-		<style jsx>{`
+    <style jsx>{`
 			.hero {
 				width: 100%;
 				color: #333;
@@ -79,7 +80,7 @@ const Cornbread = () => (
 				color: #333;
 			}
 		`}</style>
-	</div>
+  </div>
 );
 
 export default Cornbread;
